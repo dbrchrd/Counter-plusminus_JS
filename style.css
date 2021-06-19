@@ -14,3 +14,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.number-display {
+  font-size: 33px;
+  font-weight: bold;
+  color: #F0F6FC;
+  text-align: center;
+}
