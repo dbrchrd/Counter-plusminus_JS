@@ -20,3 +20,20 @@ body {
   color: #F0F6FC;
   text-align: center;
 }
+.button {
+  width: 90px;
+  height: 80px;
+  background: #238636;
+  font-size: 35px;
+  border: 1px solid #F0F6FC;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+#button-decrease{
+
+}
+#button-increase{
+
+}
