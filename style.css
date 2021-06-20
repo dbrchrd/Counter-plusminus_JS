@@ -10,6 +10,12 @@ body {
 }
 .container {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background: red; */
+  width: 50%;
+  height: 35%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -19,6 +25,9 @@ body {
   font-weight: bold;
   color: #F0F6FC;
   text-align: center;
+}
+.buttons-container {
+  display: flex;
 }
 .button {
   width: 90px;
