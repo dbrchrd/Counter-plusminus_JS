@@ -29,8 +29,28 @@ body {
   border-radius: 3px;
   cursor: pointer;
 }
-
-
+.button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: #f6e58d;
+  color: #000;
+  transition: all .1s ease 0s;
+  box-shadow: 0 10px #f9ca24;
+}
+.button:before{
+  content: '\f04c';
+  color: #000;
+  font-size: 1rem;
+  font-family: FontAwesome;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 1.5rem;
+  opacity: 0;
+  transition: all .1s ease 0s;
+}
 #button-decrease{
 
 }
