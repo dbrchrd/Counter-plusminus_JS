@@ -28,6 +28,7 @@ body {
 }
 .buttons-container {
   display: flex;
+  justify-content: center;
 }
 .button {
   width: 90px;
@@ -35,30 +36,16 @@ body {
   background: #238636;
   font-size: 35px;
   border: 1px solid #F0F6FC;
-  border-radius: 3px;
+  border-radius: 10px;
   cursor: pointer;
 }
 .button {
-  display: block;
-  width: 100%;
+  margin: 3px;
   padding: 1rem;
-  border-radius: 1.5rem;
   background-color: #f6e58d;
   color: #000;
   transition: all .1s ease 0s;
   box-shadow: 0 10px #f9ca24;
-}
-.button:before{
-  content: '\f04c';
-  color: #000;
-  font-size: 1rem;
-  font-family: FontAwesome;
-  display: inline-block;
-  position: absolute;
-  top: 10px;
-  left: 1.5rem;
-  opacity: 0;
-  transition: all .1s ease 0s;
 }
 .button:active {
   box-shadow: 0 5px #f0932b;
