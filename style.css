@@ -26,9 +26,13 @@ body {
   color: #F0F6FC;
   text-align: center;
 }
-.buttons-container {
+.keyboard {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: red;
+  width: 275px;
+  height: 100px;
 }
 .button {
   width: 90px;
@@ -38,6 +42,7 @@ body {
   border: 1px solid #F0F6FC;
   border-radius: 10px;
   cursor: pointer;
+  transform: translateY(-5px);
 }
 .button {
   margin: 3px;
