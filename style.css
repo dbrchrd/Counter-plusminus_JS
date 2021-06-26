@@ -5,20 +5,27 @@
   padding: 0;
 }
 body {
-  background: #0D1117;
+  background: #5D6167;
   font-family: 'Lato', sans-serif;
 }
 .container {
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   /* background: red; */
-  width: 50%;
-  height: 35%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.screen {
+  background: #000;
+  width: 355.556px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
 .number-display {
   font-size: 33px;
@@ -31,8 +38,6 @@ body {
   justify-content: center;
   align-items: center;
   background: red;
-  width: 275px;
-  height: 100px;
 }
 .button {
   width: 90px;
@@ -44,6 +49,7 @@ body {
   cursor: pointer;
   transform: translateY(-5px);
 }
+
 .button {
   margin: 3px;
   padding: 1rem;
