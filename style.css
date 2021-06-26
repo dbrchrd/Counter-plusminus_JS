@@ -28,16 +28,22 @@ body {
   border-radius: 5px;
 }
 .number-display {
+  background: blue;
   font-size: 33px;
   font-weight: bold;
   color: #F0F6FC;
   text-align: center;
+  width: 344.889px;
+  height: 190px;
 }
 .keyboard {
   display: flex;
   justify-content: center;
   align-items: center;
   background: red;
+  width: 355.556px;
+  height: 200px;
+  border-radius: 5px;
 }
 .button {
   width: 90px;
