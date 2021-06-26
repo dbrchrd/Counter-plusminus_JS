@@ -45,6 +45,13 @@ body {
   height: 200px;
   border-radius: 5px;
 }
+.separators {
+  position: relative;
+  top: 0;
+  background: #000;
+  width: 10px;
+  height: 10px;
+}
 .button {
   width: 90px;
   height: 80px;
