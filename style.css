@@ -32,7 +32,9 @@ body {
   font-size: 33px;
   font-weight: bold;
   color: #F0F6FC;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 344.889px;
   height: 190px;
 }
