@@ -5,8 +5,7 @@ const btn_increase = document.querySelector("#button-increase");
 const btn = document.querySelector(".buttons");
 let counter = 0;
 
-btn_decrease.onclick = () => {
-  console.log(counter);
+let m = () => {
   if (counter >= 0 && counter <= 9999) {
     if (counter != 0) {
       display_number.style.display = "block";
@@ -18,9 +17,9 @@ btn_decrease.onclick = () => {
       display_error.style.display = "block";
     }
   }
-}
-btn_increase.onclick = () => {
   console.log(counter);
+}
+let p = () => {
   if (counter >= 0 && counter <= 9999) {
     if (counter != 9999) {
       display_number.style.display = "block";
@@ -32,4 +31,19 @@ btn_increase.onclick = () => {
       display_error.style.display = "block";
     }
   }
+  console.log(counter);
+}
+document.onkeydown = function(e) {
+  if (e.key == "-" || e.key == "ArrowDown") {
+    m();
+  }
+  if (e.key == "+" || e.key == "ArrowUp") {
+    p();
+  }
+};
+btn_decrease.onclick = () => {
+  m();
+}
+btn_increase.onclick = () => {
+  p();
 }
