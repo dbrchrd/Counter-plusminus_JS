@@ -28,13 +28,23 @@ body {
   border-radius: 5px;
 }
 .number-display {
-  background: blue;
+  background: #006799;
   font-size: 33px;
   font-weight: bold;
   color: #F0F6FC;
   text-align: center;
   width: 344.889px;
   height: 190px;
+}
+.number {
+  display: flex;
+  padding: 20px;
+}
+.error {
+  display: none;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
 }
 .keyboard {
   display: flex;
